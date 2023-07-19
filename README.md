@@ -12,9 +12,13 @@ The app encourages real-time communication and promotes a sense of community by 
 # Key features
 
 • Dialog box for entering name of the user.
+
 • Real time communication using Socket.io : Whenever a user sends a message or performs any action, the server broadcasts it to all other users in the same chat room.
+
 • User Join/Leave Notifications: When a new user join/leave a chat room, a notification is displayed to all existing users so other users can acknowledge the arrival/departure.
+
 • User Count Display: The chat app shows the total number of users currently present in the chat room. This count updates dynamically as users join or leave.
+
 • User Name Display: The app displays the names of all users in the chat room. Names list updates dynamically as users join or leave.
 
 
@@ -22,8 +26,10 @@ Server Setup:
 The backend server is built using Node.js, which provides a robust and efficient environment for handling concurrent connections.
 Socket.io, a library for real-time communication, is integrated with the server to enable real-time chat functionality.
 
+
 Client-Side Interface:
 The frontend of the chat app is developed using HTML, CSS, and JavaScript.
+
 
 Socket.io Integration:
 When a user accesses the app, the client establishes a WebSocket connection with the server using Socket.io.

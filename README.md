@@ -9,6 +9,9 @@ The UI of the web app is user friendly and simple yet attractive.It is user-frie
 
 The app encourages real-time communication and promotes a sense of community by displaying the number and names of users present in each chat room.
 
+The Web App is deployed on render.com
+Link : https://baat-chit.onrender.com/
+
 # Key features
 
 • Dialog box for entering name of the user.
